@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/diagonal-difference
+
 process.stdin.resume();
 process.stdin.setEncoding('ascii');
 

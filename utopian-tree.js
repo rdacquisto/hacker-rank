@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/utopian-tree
+
 'use strict';
 
 function growth (cycle, height) {
