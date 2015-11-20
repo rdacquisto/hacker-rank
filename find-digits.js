@@ -3,7 +3,6 @@
 'use strict';
 
 function processData(input) {
-    //Enter your code here
     var lines = input.split('\n');
 
     var test_cases = parseInt(lines.shift(), 10);
