@@ -5,9 +5,9 @@
 
 	module.exports = {
 		parseTests: function (data) {
-			var tests = data.split('|||');
+			var tests = data.split('\n|||\n');
 			return tests.map(function (test) {
-				var io = test.split('===');
+				var io = test.split('\n===\n');
 				return {
 					input: io.shift().trim(),
 					output: io.shift().trim(),
