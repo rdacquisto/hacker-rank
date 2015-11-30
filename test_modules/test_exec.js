@@ -26,6 +26,10 @@
 				});
 			});
 
+			child.stderr.on('data', function (data) {
+				console.log(data.toString());
+			});
+
 			child.stdout.on('data', function (data) {
 				output += data;
 			});
